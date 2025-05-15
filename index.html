@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Registro Gimnasio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section>
+    <h1 id="title">Registro Gymrats</h1>
+    <p id="description">
+      Da el primer paso hacia tu mejor versión. Llena el formulario y únete a Gymrats.
+    </p>
+  </section>
+
+  <section>
+    <form method="POST" id="survey-form">
+      <fieldset>
+        <legend>Información básica</legend>
+
+        <label id="name-label" for="name">
+          Nombre
+          <input id="name" name="name" type="text" required placeholder="Juan Pérez" />
+        </label>
+
+        <label id="email-label" for="email">
+          Correo
+          <input id="email" name="email" type="email" required placeholder="example@hotmail.com" />
+        </label>
+
+        <label id="number-label" for="number">
+          Número
+          <input id="number" name="number" type="number" min="8" max="10" required placeholder="12345" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="dropdown">
+          ¿Cuál es tu objetivo principal en el gimnasio?
+          <select id="dropdown" name="objetivo" required>
+            <option value="" disabled selected>Selecciona una opción</option>
+            <option value="perder-peso">Perder peso</option>
+            <option value="ganar-musculo">Ganar músculo</option>
+            <option value="mantenerme">Mantenerme en forma</option>
+            <option value="rehabilitacion">Rehabilitación física</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tipo de suscripción deseada</legend>
+        <label for="mensual">
+          <input type="radio" id="mensual" value="tiempo" name="tiempo" checked /> Mensual
+        </label>
+        <label for="anual">
+          <input type="radio" id="anual" value="tiempo" name="tiempo" /> Anual
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>¿Cómo te enteraste de nosotros?</legend>
+        <label for="instagram">
+          <input type="checkbox" id="instagram" value="instagram" name="redes" /> Instagram
+        </label>
+        <label for="facebook">
+          <input type="checkbox" id="facebook" value="facebook" name="redes" /> Facebook
+        </label>
+        <label for="tiktok">
+          <input type="checkbox" id="tiktok" value="tiktok" name="redes" /> TikTok
+        </label>
+        <label for="amigos">
+          <input type="checkbox" id="amigos" value="amigos" name="amigos" /> Amigos
+        </label>
+
+        <label for="comentarios">
+          ¿Tienes alguna lesión, condición médica o comentario que debamos saber?
+        </label>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50" maxlength="300" placeholder="Ej: Tuve una lesión en rodilla derecha. Prefiero rutinas moderadas"></textarea>
+      </fieldset>
+
+      <input type="submit" value="Enviar" id="submit" />
+    </form>
+  </section>
+
+  <footer>
+    Hecho con 💪 por Hugo Martínez – 2025
+  </footer>
+</body>
+</html>
