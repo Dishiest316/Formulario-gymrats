@@ -1,9 +1,10 @@
+![Vista previa del formulario](assets/formulario.png)
+
+
 🏋️‍♂️ Registro Gymrats
-Formulario de inscripción para el gimnasio Gymrats. Proyecto realizado como parte del curso de HTML y CSS de FreeCodeCamp.
 
-📸 Vista previa
+Formulario de inscripción al gimnasio Gymrats, desarrollado como proyecto de certificación para el curso de Responsive Web Design de FreeCodeCamp.
 
-💡 Asegúrate de que la imagen esté en tu repositorio (por ejemplo, en una carpeta /assets o al lado del HTML). Si la vas a subir a GitHub, pon bien la ruta.
 
 🧰 Tecnologías utilizadas
 HTML5
@@ -50,4 +51,3 @@ Año: 2025
 
 Proyecto personal de práctica
 
-![Vista previa del formulario](assets/formulario.png)
